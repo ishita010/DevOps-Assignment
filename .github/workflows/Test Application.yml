@@ -13,5 +13,5 @@ jobs:
 
       - name: Verify Repository
         run: |
-          echo "Repository checked successfully"
+          invalid-command
           
