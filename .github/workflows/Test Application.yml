@@ -14,4 +14,4 @@ jobs:
       - name: Verify Repository
         run: |
           echo "Repository checked successfully"
-          ls -R
+          
