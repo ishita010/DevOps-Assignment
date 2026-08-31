@@ -1,1 +1,14 @@
+name: Hello Workflow
 
+on:
+push:
+branches:
+-main
+
+jobs:
+hello:
+runs-on:ubuntu-latest
+
+steps:
+-name:Print Message
+run:echo"Hello Github Actions!"
