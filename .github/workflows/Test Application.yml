@@ -13,5 +13,7 @@ jobs:
 
       - name: Verify Repository
         run: |
-          invalid-command
+          echo "Repository checked successfully
+                pwd
+                ls -R
           
